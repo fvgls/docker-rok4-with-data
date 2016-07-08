@@ -1,0 +1,17 @@
+nginx:
+  image: nginx
+  ports:
+    - "1234:80"
+  links:
+    - rok4
+  volumes:
+    - ./nginx/:/etc/nginx/conf.d
+rok4:
+  image: rok4/rok4
+  volumes_from:
+    - data-scan1000
+    - data-bdortho-d075
+data-scan1000:
+  image: rok4/data-scan1000
+data-bdortho-d075:
+image: rok4/data-bdortho-d075
