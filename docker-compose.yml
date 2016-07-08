@@ -14,4 +14,4 @@ rok4:
 data-scan1000:
   image: rok4/data-scan1000
 data-bdortho-d075:
-image: rok4/data-bdortho-d075
+  image: rok4/data-bdortho-d075
