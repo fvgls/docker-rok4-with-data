@@ -10,8 +10,8 @@ This repository contains :
 
 The docker-compose configuration contains :
 * A Nginx server (docker image [nginx](https://hub.docker.com/_/nginx/) )
-* A Rok4 server (docker image [dolite/rok4](https://hub.docker.com/r/dolite/rok4/) )
-* 2 data pyramids (docker images [dolite/data-scan1000](https://hub.docker.com/r/dolite/data-scan1000/) and [dolite/data-bdortho-d075](https://hub.docker.com/r/dolite/data-bdortho-d075/) )
+* A Rok4 server (docker image [rok4/rok4](https://hub.docker.com/r/rok4/rok4/) )
+* 2 data pyramids (docker images [rok4/data-scan1000](https://hub.docker.com/r/rok4/data-scan1000/) and [rok4/data-bdortho-d075](https://hub.docker.com/r/rok4/data-bdortho-d075/) )
 
 The Nginx configuration redirect requests on port 80, path /rok4 to rok4, port 9000
 
