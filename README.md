@@ -32,4 +32,8 @@ To change the listening port on the host (1234 by default), change the line in t
     image: nginx
     ports:
       - "1234:80" <----------------
+      
+### To test
+
+This request should run : http://127.0.0.1:1234/rok4?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=ORTHO_JPG_PM_D075&STYLES=normal&CRS=EPSG:3857&WIDTH=3000&HEIGHT=3000&BBOX=242152,6229923,291072,6264167&FORMAT=image/png
 
