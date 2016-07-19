@@ -6,14 +6,14 @@ Docker composition configuration to deploy Nginx, Rok4 and two data pyramids
 
 This repository contains :
 * A docker-compose configuration
-* A Nginx configuration
+* A Nginx configuration with a leaflet map
 
 The docker-compose configuration contains :
 * A Nginx server (docker image [nginx](https://hub.docker.com/_/nginx/) )
 * A Rok4 server (docker image [rok4/rok4](https://hub.docker.com/r/rok4/rok4/) )
 * 2 data pyramids (docker images [rok4/data-scan1000](https://hub.docker.com/r/rok4/data-scan1000/) and [rok4/data-bdortho-d075](https://hub.docker.com/r/rok4/data-bdortho-d075/) )
 
-The Nginx configuration redirect requests on port 80, path /rok4 to rok4, port 9000
+The Nginx configuration redirect requests on port 80, path /rok4 to rok4, port 9000 and path / ta a basic leaflet map to present WMTS data from your ROK4 server
 
 ## Requirements
 
