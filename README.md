@@ -24,7 +24,7 @@ Have an host with docker engine and docker-compose installed, a working connecti
 To run the application, in the main directory :
 docker-compose up
 
-To test if the server is well running, go to your browser and type this URI : 
+To test if the server is well running, go to your browser and type this URL : 
 
 [http://127.0.0.1:1234/rok4?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=ORTHO_JPG_PM_D075&STYLES=normal&CRS=EPSG:3857&WIDTH=3000&HEIGHT=3000&BBOX=242152,6229923,291072,6264167&FORMAT=image/png](http://127.0.0.1:1234/rok4?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=ORTHO_JPG_PM_D075&STYLES=normal&CRS=EPSG:3857&WIDTH=3000&HEIGHT=3000&BBOX=242152,6229923,291072,6264167&FORMAT=image/png)
 
